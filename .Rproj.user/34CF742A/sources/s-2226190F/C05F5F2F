@@ -1,0 +1,32 @@
+{
+    "id": "C05F5F2F",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1609177169143.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "expression": "orangeec",
+        "caption": "orangeec",
+        "totalObservations": 17,
+        "displayedObservations": 17,
+        "variables": 13,
+        "cacheKey": "5E5775FF",
+        "object": "orangeec",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=orangeec&cache_key=5E5775FF&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1609177089,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1609177169143,
+    "read_only": false,
+    "read_only_alternatives": []
+}
