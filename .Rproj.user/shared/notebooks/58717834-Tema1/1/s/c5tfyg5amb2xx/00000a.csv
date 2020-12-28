@@ -1,0 +1,2 @@
+"0","x = seq(0,2*pi,0.1)"
+"0","plot(x,sin(x),type=""l"",col=""blue"",lwd=3, xlab=expression(x), ylab="""")"
