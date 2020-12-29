@@ -12,14 +12,14 @@
     "properties": {
         "expression": "mtcars",
         "caption": "mtcars",
-        "totalObservations": 32,
-        "displayedObservations": 32,
-        "variables": 12,
-        "cacheKey": "4F9CFEB1",
+        "totalObservations": "32",
+        "displayedObservations": "32",
+        "variables": "12",
+        "cacheKey": "D4893FEA",
         "object": "mtcars",
         "environment": "",
-        "contentUrl": "grid_resource/gridviewer.html?env=&obj=mtcars&cache_key=4F9CFEB1&max_cols=50",
-        "preview": 0
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=mtcars&cache_key=D4893FEA&max_cols=50",
+        "preview": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1609177212,

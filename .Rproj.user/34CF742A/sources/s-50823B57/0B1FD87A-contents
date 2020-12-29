@@ -97,11 +97,39 @@ mtcars
 neworange<- subset(orangeec, `Internet penetration % population` >80 & `Education invest % GDP`>=4.5)
 neworange
 
+#seleccionaremos columnas en especifico
 
+neworange<- subset(orangeec, `Internet penetration % population` >80 & `Education invest % GDP`>=4.5, select=`Creat Ind % GDP`)
+neworange
+#cambiar el nombre a una columna primera forma
+  #Le damos la ubicacion con numero
+colnames(orangeec)[2] <- 'd'  
+orangeec
+#cambiar el nombre a una columna segunda forma
+  #Le damos la ubicacion entrando otra vez a la matriz
 
+colnames(orangeec)[colnames(orangeec) == "d"] <- "z"
+orangeec
+#regresamos a nuestro dataset
+orangeec <- read_csv("orangeec.csv")
+#mostrar primeros 6 elementos del dataset
+head(mtcars)
+head(orangeec)
+#mostrar ultimos 6 elementos del dataset
+tail(mtcars)
+tail(orangeec)
 
+library(dplyr)
 
+glimpse(orangeec)
+#dbl es numerico
 
-
-
-
+vector=1:8
+vector
+matriz<-matrix(1:9, ncol = 3)
+matriz
+datafra<-mtcars[1:4,]
+datafra
+# List nos muestra todo lo que esta dentro
+lista<-list(vector,matriz,datafra)
+lista
