@@ -1,25 +1,25 @@
 {
-    "id": "0B1FD87A",
+    "id": "FF8D4852",
     "path": "E:/Github/practicas/Primero.R",
     "project_path": "Primero.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "3786701193",
     "contents": "",
     "dirty": false,
-    "created": 1609258425001.0,
+    "created": 1609630457907.0,
     "source_on_save": false,
     "relative_order": 6,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "13,0",
-        "scrollLine": "0"
+        "cursorPosition": "134,5",
+        "scrollLine": "119"
     },
     "folds": "",
-    "lastKnownWriteTime": 1609257821,
+    "lastKnownWriteTime": 1609865562,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1609257821,
+    "last_content_update": 1609865562608,
     "read_only": false,
     "read_only_alternatives": []
 }
