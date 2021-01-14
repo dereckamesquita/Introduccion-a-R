@@ -3,22 +3,22 @@
     "path": "E:/Github/practicas/Cap2/ED1.Rmd",
     "project_path": "Cap2/ED1.Rmd",
     "type": "r_markdown",
-    "hash": "3510404875",
+    "hash": "2349609209",
     "contents": "",
     "dirty": false,
     "created": 1610467280540.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
-        "cursorPosition": "157,50",
-        "scrollLine": "144"
+        "cursorPosition": "185,4",
+        "scrollLine": "188"
     },
     "folds": "",
-    "lastKnownWriteTime": 1610646649,
+    "lastKnownWriteTime": 1610654521,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1610646649368,
+    "last_content_update": 1610654521366,
     "read_only": false,
     "read_only_alternatives": []
 }

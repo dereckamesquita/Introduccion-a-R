@@ -3,8 +3,8 @@ title: "ED1"
 author: "Dereck Amesquita"
 date: "10/1/2021"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 
@@ -154,6 +154,7 @@ y[is.na(y)]=mean(y, na.rm = TRUE)
 y
 ```
 Podemos calcular la media sin usar na.rm
+
 ### Quitar NA de nuestra matriz
 Podemos quitar los NA de nuestra matriz mediante "!"
 ```{r}
@@ -162,6 +163,38 @@ s[15]=20
 s[!is.na(s)] #Son los valores que no son NA
 mean(s[!is.na(s)])
 ```
+Otro recurso "muy forzado" es usar la funcion na.omit. R simplemente nos la matriz sin los valores na. Lo recomendable seria usar !is.na() y ponerlo dentro de una nueva matriz.
+```{r}
+s
+na.omit(s)
+p = s[!is.na(s)]
+p
+```
+# Factores en R
+
+## ¿Que es un Factor?
+
+Es como un vector, pero con una estructura interna más rica que permite usarlo para clasificar observaciones
+
+- `levels`: atributo del factor. Cada elemento del factor es igual a un nivel. Los niveles clasifican las entradas del factor. Se ordenan por orden alfabético
+- Para definir un factor, primero hemos de definir un vector y trasformarlo por medio de una de las funciones `factor()` o `as.factor()`.
+
+```{r}
+autos<-c("Kia","Audi","Audi","Nissan","Audi","Kia")
+autos.factor=factor(autos)
+autos.factor
+#Nos devuelve levels lo cual son los niveles, y son elementos unicos del factor.
+
+```
+
+## La función factor()
+
+- `factor(vector,levels=...)`: define un factor a partir del vector y dispone de algunos parámetros que permiten modificar el factor que se crea:
+
+    - `levels`: permite especificar los niveles e incluso añadir niveles que no aparecen en el vector
+    - `labels`: permite cambiar los nombres de los niveles
+    
+-  `levels(factor)`: para obtener los niveles del factor
 
 
 
