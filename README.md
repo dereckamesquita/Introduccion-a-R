@@ -9,3 +9,8 @@ Fundamentos de la programacion en R y Rstudio
 
 ## Capitulo 2
 La estadistica descriptiva en R 
+### Estadistica descriptiva 1 (ED1)
+Fundamentos de R para la estadistica descriptiva.
+Se aborda: Vectores, funciones, subvectores, factores, listas y matrices
+### Estadistica descriptiva 2 (ED2)
+Primeros temas de estadistica descriptiva.
