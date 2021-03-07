@@ -1,0 +1,19 @@
+---
+title: "Estadistica descriptiva 2"
+author: "Dereck Amesquita"
+date: "28/1/2021"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+```
+# Graficos en R
+## Grafico de puntos
+
+
+```{r plotuno, fig.cap="Grafico de plot"}
+alumnos = c(1:10)
+notas = c(2,5,7,9,8,3,5,6,10,7)
+plot(alumnos,notas, main="Relacion entre alumnos y notas")
+```
+
