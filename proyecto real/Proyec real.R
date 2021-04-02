@@ -1,5 +1,7 @@
 agroup <- read_delim("proyecto real/agroup.csv", 
                        +     ";", escape_double = FALSE, trim_ws = TRUE)
+# o quiza tambien
+agroup <- read.csv("E:/Github/Introduccion-a-R/proyecto real/agroup.csv", sep=";")
 colnames(agroup)[colnames(agroup) == "total"] <- "Keyword organicas"
 
 pairs(agroup[,5:8])
